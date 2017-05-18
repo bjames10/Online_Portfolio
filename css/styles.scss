@@ -5,9 +5,9 @@ body {
 ul.nav { text-align: center; }
 ul.nav li { display: inline-block;
     border: 3pt sold grey ;
-border-style: outset;
-font-family: verdana, sans-serif;
-text-decoration:underline overline;
+    border-style: outset;
+    font-family: verdana, sans-serif;
+    text-decoration:underline overline;
     text-transform:uppercase;
     color:#000000;
     border: 12px dashed black;
@@ -16,22 +16,56 @@ text-decoration:underline overline;
     font-size:15px;
     padding: 15pt;
     line-height:0}
+img {
+    max-width: 50%;
+}
+p.welcome {display: block;
+    padding:20px;
+    border:4pt offset grey;
+    font-size:24pt; }
 
 h1 {
     text-align: center;
     font-size: 34pt;
     font-family: Verdana, sans-serif;
-text-decoration:underline overline;
+    text-decoration:underline overline;
     text-transform:uppercase;
     color:#000000;
     border: black 38px dashed #b5a759;
     letter-spacing:1pt;
     word-spacing:2pt;
     font-size:55px;
-        line-height:0;
-margin:auto;}
+    line-height:0;
+    margin:auto;}
 
-p.welcome {padding:20px;border:4pt ofset grey;
-    font-size:24pt; }
-    
-    
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline overline;
+    font-variant: small-caps;
+    color: #000000;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 15px;
+    text-align: left;
+    font-family: verdana, sans-serif;
+    line-height: 0;
+}  
+h3 {
+    font-family: verdana, sans-serif;
+    color: darkgray;
+    font-style: italic;
+}
+
+h4 {
+    font-weight: bold;
+    text-decoration: underline overline;
+    font-variant: small-caps;
+    color: #000000;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 30px;
+    text-align: left;
+    font-family: verdana, sans-serif;
+    line-height: 3;
+}
