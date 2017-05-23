@@ -1,5 +1,8 @@
 /* Styling */
+   /*jslint browser: true*/
+/*global $, jQuery*/
 body {
+    background-color: rgba(114, 114, 114, 0.17);
     font-family: Verdana;
 }
 ul.nav { text-align: center; }
@@ -19,6 +22,7 @@ ul.nav li { display: inline-block;
 img {
     max-width: 50%;
 }
+
 .paracontain {
     margin-left: 10%;
     margin-right: 10%;
@@ -40,11 +44,22 @@ font-family: verdana;
     padding:5px;
 margin: auto;
 text-align: center;
+
 }
-.resume { border: 5pt solid black;
-    margin:auto;
-    width: 500pt;
-    height: 600pt;
+#resumebox{
+margin: 10% auto;
+height: 500px;
+width: 820px;}
+
+.resume { 
+    position: relative;
+    align-content: center;
+    border: 5pt solid black;
+   width: 820px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 embed {
     width: 400pt;
@@ -99,4 +114,16 @@ h4 {
 .containerONE {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.containerONE {
+    margin: auto;
+     width:1000px; 
+    background:rgb(255, 255, 255); 
+    border:1px solid #ccc;
+    border-top:none; 
+    padding:5px; 
+    border-radius:0 0 5px 5px;
+    box-shadow:0 0 5px #ccc;
+    
 }

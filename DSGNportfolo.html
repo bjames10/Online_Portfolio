@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- gotten from view from codepen -->
@@ -11,6 +12,7 @@
     <meta name="theme-color" content="#ffffff">
     
     <title>Design</title>
+    <link href="js/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css"> <!-- link (TAB) does all that mumbo for you< -->
 </head>
@@ -60,8 +62,15 @@ This was an individual assignment with much of the work being trial and error wh
         <ul>Adobe Indesign/Adobe Illustrator</ul>
         <div class="paracontain">
          <p>The poster was created for students attending the 2017 symposium, specifically underclassmen. This project allowed me to demonstrate my writing abilites along with my ability to create original artwork. 
-<br> <img class="poster" src="img/Poster.png" alt="">
-<br>
+            
+            <br> 
+        <div id="lightbox">
+            <div id="content">
+             <a id="poster_image" href="img/Poster.png"><img src="img/Poster.png" alt=""/></a>
+            </div>
+        </div>
+
+<br><p>
 I started my project by sketching out drafts and researching failure in academia and its impact on students. Then I created the illustrator project based upon my hand drawn drafts and a reference of a golf hole. After the poster was to size and completed I wrote out my content and made adjustments based upon my peer reviews. 
 
 The poster turned out better than I thought it would and was well received at the symposium.
@@ -69,7 +78,10 @@ The poster turned out better than I thought it would and was well received at th
       </div>
        
     </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script src="js/lightbox2-master/dist/js/lightbox.js"></script>
 
+       
            </body>  
 </html>
       
