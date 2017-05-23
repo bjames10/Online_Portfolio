@@ -19,6 +19,11 @@ ul.nav li { display: inline-block;
 img {
     max-width: 50%;
 }
+.paracontain {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 20px;
+}
 .welcome {
     padding-bottom: 20px;
     border:4pt offset grey;
@@ -32,7 +37,7 @@ text-align: center;}
     border:4pt offset grey;
     font-size:14pt;
 font-family: verdana;
-    padding:50px;
+    padding:5px;
 margin: auto;
 text-align: center;
 }
@@ -90,4 +95,8 @@ h4 {
     text-align: left;
     font-family: verdana, sans-serif;
     line-height: 3;
+}
+.containerONE {
+    margin-left: 5%;
+    margin-right: 5%;
 }
